@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /properties-demo
+
+spring:
+  profiles:
+    active: ${env:local}
+  application:
+    name: properties-demo
+
+jasypt:
+  encryptor:
+    password: 123
+    algorithm: PBEWithMD5AndDES
+

@@ -1,0 +1,8 @@
+server:
+  port: 8020
+
+spring:
+  config:
+    additional-location: "common-config/local/"
+  profiles:
+    include: common,tenant
